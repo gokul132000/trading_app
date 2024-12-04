@@ -1,0 +1,92 @@
+name: trading_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+  cupertino_icons: ^1.0.6
+  flutter_svg: 2.0.10+1
+  flutter_bloc: 8.1.6
+  intl:
+  socket_io_client: 1.0.2
+  webview_flutter: ^4.10.0
+
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+
+  fonts:
+    - family: Larsseit
+      fonts:
+        - asset: assets/fonts/LarsseitThin.otf
+          weight: 100
+        - asset: assets/fonts/LarsseitThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/LarsseitLight.otf
+          weight: 300
+        - asset: assets/fonts/LarsseitLightItalic.otf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/LarsseitMedium.otf
+          weight: 500
+        - asset: assets/fonts/LarsseitMediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/LarsseitBold.otf
+          weight: 700
+        - asset: assets/fonts/LarsseitBoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/LarsseitExtraBold.otf
+          weight: 800
+        - asset: assets/fonts/LarsseitExtraBoldItalic.otf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/LarsseitItalic.otf
+          weight: 400
+          style: italic
+
+
+
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
